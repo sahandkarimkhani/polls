@@ -8,7 +8,7 @@ def index(request):
 def detail(request, question_id):
     return HttpResponse("you are looking at question {}".format(question_id))
 
-def rsults(request, question_id):
+def results(request, question_id):
     response = "this page shows reults of question {}"
     return HttpResponse(response.format(question_id))
     
